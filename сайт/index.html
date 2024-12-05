@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="fon"></div>
+
+<!----------------------шапка--------------------->
+    <div id="header">
+        <div class="head" id="head-logo">Buton</div>
+        <div class="head" id="head-katalog">
+            <img src="katalog.png" alt="">
+            <div id="katalog">
+                    <a href="">моно</a>
+                    <a href="">классика</a>
+                    <a href="">свадебные</a>
+            </div>
+        </div>
+        <div class="head" id="head-poisk">
+            <img src="poisk.png" alt="" >
+            <input type="text" placeholder=" Поиск . . . " id="poisk-poisk">
+        </div>
+        <div class="head" id="head-onas">О НАС</div>
+        <div class="head" id="head-dostavka">ДОСТАВКА</div>
+        <div class="head" id="head-kontakt" >КОНТАКТЫ</div>
+        <div class="head"><img src="korzina.png" alt=""></div>
+        <div class="head" onclick="vhod()"><img src="vhod.png" alt=""></div>
+    </div>
+
+<!----------------------вход--------------------->
+    <div id="vhod">
+        <div id="close" >
+            <img src="zakr.png" alt="" onclick="closed()">
+        </div>
+        <p>А в т о р и з а ц и я</p>
+        <br><br>
+
+        <label for="">Л о г и н : </label>
+        <input type="" style="margin-left: 42px;">
+        <br><br>
+        <label for=""> П а р о л ь : </label>
+        <input type="">
+        <br><br>
+
+        <button>В Х О Д</button>
+        <div id="registrtion" onclick="reg()">Регистрация</div>
+
+    </div>
+    
+
+    <!----------------------Регистрация--------------------->
+    <div id="regist">
+        <div id="regist-close" >
+            <img src="zakr.png" alt="" onclick="closed_reg()">
+        </div>
+        <p>Р е г и с т р а ц и я</p>
+        <br>
+
+        <label for="" >И м я : </label>
+        <input type="" style="margin-left: 155px;">
+        <br><br>
+        <label for=""> Т е л е ф о н : </label>
+        <input type="">
+        <br><br>
+        <label for="">Л о г и н : </label>
+        <input type="" style="margin-left: 85px;">
+        <br><br>
+        <label for=""> П а р о л ь : </label>
+        <input type="" style="margin-left: 42px;">
+        <br><br>
+
+        <button>Р Е Г И С Т Р А Ц И Я</button>
+        <div id="auth" onclick="vhod()">Вход</div>
+
+    </div>
+
+
+    <div>
+
+    </div>
+
+<script src="code.js"></script>
+
+</body>
+</html>

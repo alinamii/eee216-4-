@@ -1,0 +1,267 @@
+
+body{
+    position: relative;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+
+#fon{
+    background-image: url(fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+/************************шапка************************/
+
+#header{
+    position: absolute;
+    top: 100px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
+    height: 80px;
+    width: 84%;
+
+    margin-left: 8%;
+}
+
+.head{
+    float: left;
+    font-size: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    cursor: pointer;
+}
+.head img{
+    height: 80px;
+    width: 80px;
+}
+
+#head-logo{
+    width: 180px;
+    height: 76px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#head-katalog:hover #katalog{
+    display: block;
+    position: absolute;
+    z-index: 2;
+
+    background-color: rgb(195, 193, 193); 
+    width: 1490px;
+    height: 400px;
+
+    margin-top: 10px;
+}
+
+#katalog{
+    display: none;
+}
+#katalog a{
+    display: block;
+}
+
+#head-poisk{
+    width: 1400px;
+    height: 80px;
+    background-color: rgb(197,224,181);
+}
+
+#poisk-poisk{
+    background-color: rgb(197,224,181); 
+    border: 0px;
+
+    height: 50px;
+    width: 1100px;
+    font-size: 26px;
+
+    position: relative;
+    bottom: 30px;
+}
+
+#head-onas{
+    width: 160px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+
+    border: 4px solid ;
+    border-color: rgb(197,224,181);
+
+    background-color: white;
+}
+#head-onas:hover{
+    background-color: rgb(197,224,181);
+}
+#head-dostavka{
+    width: 160px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+
+    border: 4px solid ;
+    border-color: rgb(197,224,181);
+
+    background-color: white;
+}
+#head-dostavka:hover{
+    background-color: rgb(197,224,181);
+}
+#head-kontakt{
+    width: 160px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+
+    border: 4px solid ;
+    border-color: rgb(197,224,181);
+
+    background-color: white;
+}
+#head-kontakt:hover{
+    background-color: rgb(197,224,181);
+}
+
+
+/************************вход************************/
+#vhod{
+    cursor: pointer;
+
+    width: 700px;
+    height: 800px;
+    background-color: rgb(207, 207, 207);
+
+    position: absolute;
+    top: 400px;
+    left: 1050px;
+    top: 260px;
+
+    font-size: 40px;
+
+    display: none;
+
+    background-image: url(fon_auth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vhod p{
+    margin-left: 150px;
+    
+}
+
+#vhod label{
+    margin-left: 30px;
+    
+}
+
+#vhod input{
+    width: 360px;
+    height: 60px;
+    
+}
+
+#vhod button{
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 80%;
+    height: 80px;
+    font-size: 40px;
+
+}
+
+#close{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left: 610px;
+    text-align: center;
+}
+#registrtion{
+    margin-top: 20px;
+    width: 100%;
+
+    text-align: center;
+    font-size: 30px;
+}
+#registrtion:hover{
+    color: rgb(110, 102, 91);
+}
+/************************Регистрация************************/
+#regist{
+    cursor: pointer;
+
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(207, 207, 207);
+
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    top: 260px;
+
+    font-size: 40px;
+
+    display: none;
+
+    background-image: url(fon_auth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#regist p{
+    margin-left: 200px;
+    
+}
+
+#regist label{
+    margin-left: 50px;
+    
+}
+
+#regist input{
+    width: 360px;
+    height: 60px;
+    
+}
+
+#regist button{
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 80%;
+    height: 80px;
+    font-size: 40px;
+
+}
+
+#regist-close{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left: 710px;
+    text-align: center;
+}
+#auth{
+    margin-top: 20px;
+    width: 100%;
+
+    text-align: center;
+    font-size: 30px;
+}
+#auth:hover{
+    color: rgb(110, 102, 91);
+}
+
+
+
